@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Kancelaria Radców Prawnych Krystian Klimas, Norbert Klimas. Prawnik Opole, Radca prawny Opole i Ozimek. Pomoc prawna dla firm i klientów indywidualnych." />
+  <meta name="keywords" content="radca prawny Opole, kancelaria prawna Opole, prawnik Ozimek, prawo gospodarcze, prawo cywilne, prawo handlowe, prawo administracyjne, prawo pracy, prawo spadkowe, prawo rodzinne" />
+  <meta name="theme-color" content="#0b1d3a" />
+  <title>Kancelaria Radców Prawnych Klimas — Opole, Ozimek</title>
+
+  <link rel="icon" type="image/png" href="logo_klimas.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="#home" class="nav__brand" aria-label="Kancelaria Klimas — strona główna">
+        <img src="logo_klimas.png" alt="Kancelaria Radców Prawnych Klimas" class="nav__logo" />
+      </a>
+
+      <nav class="nav__links" aria-label="menu główne">
+        <a href="#home">Strona główna</a>
+        <a href="#about">O firmie</a>
+        <a href="#offer">Oferta</a>
+        <a href="#team">Zespół</a>
+        <a href="#career">Kariera</a>
+        <a href="#rodo">RODO</a>
+        <a href="#contact" class="nav__cta">Kontakt</a>
+      </nav>
+
+      <button class="nav__burger" id="burger" aria-label="Otwórz menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section id="home" class="hero">
+    <div class="hero__bg" aria-hidden="true">
+      <div class="hero__slider" id="heroSlider">
+        <img src="images/banner/slide-1.jpg" alt="" class="hero__slide is-active" loading="eager" fetchpriority="high" />
+        <img src="images/banner/slide-3.jpg" alt="" class="hero__slide" loading="lazy" />
+        <img src="images/banner/slide-4.jpg" alt="" class="hero__slide" loading="lazy" />
+      </div>
+    </div>
+    <div class="container hero__inner">
+      <div class="hero__content reveal">
+        <span class="eyebrow">Od 1999 roku · Opole &amp; Ozimek</span>
+        <h1 class="hero__title">
+          Profesjonalna pomoc prawna<br />
+          <span class="accent">dla firm i klientów indywidualnych</span>
+        </h1>
+        <p class="hero__lead">
+          Kancelaria Radców Prawnych <strong>Krystiana Klimas</strong> oraz <strong>Norberta Klimas</strong>.
+          Specjalizujemy się w szeroko pojętym prawie gospodarczym. Łączymy ponad 30-letnie doświadczenie
+          z nowoczesnym podejściem do obsługi prawnej.
+        </p>
+        <div class="hero__cta">
+          <a href="#contact" class="btn btn--primary">Umów spotkanie</a>
+          <a href="#offer" class="btn btn--ghost">Zakres działalności</a>
+        </div>
+
+        <ul class="hero__stats" role="list">
+          <li class="hero__stat">
+            <span class="hero__stat-num">30<sup>+</sup></span>
+            <span class="hero__stat-label">
+              <span>lat</span>
+              <span>doświadczenia</span>
+            </span>
+          </li>
+          <li class="hero__stat">
+            <span class="hero__stat-num">2</span>
+            <span class="hero__stat-label">
+              <span>biura</span>
+              <span>Opole &amp; Ozimek</span>
+            </span>
+          </li>
+          <li class="hero__stat">
+            <span class="hero__stat-num">11</span>
+            <span class="hero__stat-label">
+              <span>obszarów</span>
+              <span>specjalizacji</span>
+            </span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <a href="#about" class="hero__scroll" aria-label="Przewiń w dół">
+      <span></span>
+    </a>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section id="about" class="section">
+    <div class="container about__layout">
+      <div class="about__media reveal" aria-hidden="true">
+        <div class="about__slider" id="aboutSlider">
+          <img src="images/about-books.jpg" alt="" class="about__img is-active" />
+          <img src="images/about-klimass.jpg" alt="" class="about__img" loading="lazy" />
+        </div>
+      </div>
+
+      <div class="about__content">
+        <div class="about__text reveal">
+          <span class="eyebrow">O firmie</span>
+          <h2 class="section__title">Kancelaria z wieloletnią tradycją</h2>
+
+          <p class="about__lead">
+            Pomagamy firmom i klientom indywidualnym z Opolszczyzny od <strong>ponad 30 lat</strong>
+            — od bieżącej obsługi prawnej po reprezentację przed sądem.
+          </p>
+
+          <p>
+            Specjalizujemy się w szeroko pojętym <strong>prawie gospodarczym</strong>.
+            Uczestniczymy w postępowaniach sądowych i administracyjnych, negocjacjach oraz
+            rokowaniach handlowych. Obsługujemy również klientów indywidualnych w sprawach
+            cywilnych, administracyjnych i karnych.
+          </p>
+
+          <ol class="about__timeline" aria-label="Historia kancelarii">
+            <li class="about__timeline-item">
+              <span class="about__timeline-year">1999</span>
+              <div class="about__timeline-body">
+                <strong>Kancelaria Norberta Klimas</strong>
+                <p>Powstaje pierwsza kancelaria — początek ponad trzydziestoletniej praktyki radcowskiej.</p>
+              </div>
+            </li>
+            <li class="about__timeline-item">
+              <span class="about__timeline-year">2013</span>
+              <div class="about__timeline-body">
+                <strong>Wspólna obsługa</strong>
+                <p>Krystian Klimas zakłada własną kancelarię. Od tego roku obie kancelarie ściśle współpracują.</p>
+              </div>
+            </li>
+            <li class="about__timeline-item">
+              <span class="about__timeline-year">Dziś</span>
+              <div class="about__timeline-body">
+                <strong>Opole &amp; Ozimek</strong>
+                <p>Dwa biura, jedenaście obszarów specjalizacji, obsługa także w języku niemieckim.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+
+        <aside class="about__cards">
+          <div class="feature reveal">
+            <div class="feature__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3 3 7v6c0 4.5 3.6 7.7 9 8 5.4-.3 9-3.5 9-8V7l-9-4Z"/></svg>
+            </div>
+            <h3>Dla przedsiębiorców</h3>
+            <p>Bieżąca obsługa prawna firm, postępowania sądowe, negocjacje i pertraktacje handlowe.</p>
+          </div>
+          <div class="feature reveal">
+            <div class="feature__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-7 8-7s8 3 8 7"/></svg>
+            </div>
+            <h3>Dla klientów indywidualnych</h3>
+            <p>Sprawy z zakresu prawa cywilnego, administracyjnego oraz prawa karnego.</p>
+          </div>
+          <div class="feature reveal">
+            <div class="feature__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 12h18M12 3v18"/></svg>
+            </div>
+            <h3>Obsługa w j. niemieckim</h3>
+            <p>Prowadzimy obsługę prawną także w języku niemieckim — komfort dla zagranicznych Klientów.</p>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ OFFER ============ -->
+  <section id="offer" class="section section--alt">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="eyebrow">Oferta</span>
+        <h2 class="section__title">Specjalizujemy się w&nbsp;świadczeniu pomocy prawnej</h2>
+        <p class="section__lead">
+          Kompleksowo doradzamy w jedenastu kluczowych obszarach prawa — zarówno w bieżącej
+          obsłudze, jak i na etapie postępowania sądowego.
+        </p>
+      </div>
+
+      <div class="offer__grid">
+        <article class="offer-card reveal">
+          <span class="offer-card__num">01</span>
+          <h3>Prawo gospodarcze</h3>
+          <p>Kompleksowa obsługa prawna podmiotów prowadzących działalność gospodarczą.</p>
+        </article>
+        <article class="offer-card reveal">
+          <span class="offer-card__num">02</span>
+          <h3>Prawo handlowe</h3>
+          <p>Spółki, kontrakty, transakcje handlowe i bieżące doradztwo korporacyjne.</p>
+        </article>
+        <article class="offer-card reveal">
+          <span class="offer-card__num">03</span>
+          <h3>Prawo cywilne</h3>
+          <p>Sprawy o zapłatę, odszkodowania, umowy, roszczenia oraz spory cywilne.</p>
+        </article>
+        <article class="offer-card reveal">
+          <span class="offer-card__num">04</span>
+          <h3>Prawo administracyjne</h3>
+          <p>Reprezentacja przed organami administracji oraz sądami administracyjnymi.</p>
+        </article>
+        <article class="offer-card reveal">
+          <span class="offer-card__num">05</span>
+          <h3>Prawo pracy i ubezpieczeń społecznych</h3>
+          <p>Doradztwo dla pracodawców i pracowników, sprawy ZUS, spory pracownicze.</p>
+        </article>
+        <article class="offer-card reveal">
+          <span class="offer-card__num">06</span>
+          <h3>Prawo ubezpieczeniowe</h3>
+          <p>Szeroko rozumiane sprawy ubezpieczeniowe, dochodzenie świadczeń i odszkodowań.</p>
+        </article>
+        <article class="offer-card reveal">
+          <span class="offer-card__num">07</span>
+          <h3>Prawo transportowe</h3>
+          <p>Obsługa firm transportowych, spedycyjnych oraz spory branżowe.</p>
+        </article>
+        <article class="offer-card reveal">
+          <span class="offer-card__num">08</span>
+          <h3>Prawo spadkowe</h3>
+          <p>Stwierdzenie nabycia spadku, dział spadku, zachowek, testamenty.</p>
+        </article>
+        <article class="offer-card reveal">
+          <span class="offer-card__num">09</span>
+          <h3>Prawo rodzinne</h3>
+          <p>Rozwody, separacje, alimenty, władza rodzicielska, podział majątku.</p>
+        </article>
+        <article class="offer-card reveal">
+          <span class="offer-card__num">10</span>
+          <h3>Prawo nieruchomości</h3>
+          <p>Obrót, użytkowanie wieczyste, służebności, sprawy księgowe i wieczystoksięgowe.</p>
+        </article>
+        <article class="offer-card reveal">
+          <span class="offer-card__num">11</span>
+          <h3>Prawo podatkowe</h3>
+          <p>Doradztwo podatkowe, postępowania przed organami skarbowymi i sądami.</p>
+        </article>
+        <article class="offer-card offer-card--accent reveal">
+          <span class="offer-card__num">DE</span>
+          <h3>Obsługa w języku niemieckim</h3>
+          <p>Prowadzimy sprawy i kontakt z Klientem w języku niemieckim.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TEAM ============ -->
+  <section id="team" class="section team">
+    <div class="team__bg" aria-hidden="true">
+      <img src="images/team-room.jpg" alt="" />
+    </div>
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="eyebrow">Zespół</span>
+        <h2 class="section__title">Doświadczenie, któremu warto zaufać</h2>
+        <p class="section__lead">
+          Od 2013 roku Kancelarie <strong>Norberta Klimas</strong> i <strong>Krystiana Klimas</strong>
+          ściśle współpracują, świadcząc pomoc prawną podmiotom gospodarczym oraz Klientom prywatnym.
+        </p>
+      </div>
+
+      <div class="team__grid">
+        <article class="person reveal">
+          <div class="person__avatar" aria-hidden="true">
+            <span>NK</span>
+          </div>
+          <h3 class="person__name">Norbert Klimas</h3>
+          <p class="person__role">Radca Prawny · Założyciel Kancelarii</p>
+          <p class="person__bio">
+            Kancelaria utworzona w <strong>1999 r.</strong> Ponad <strong>30-letnie</strong>
+            nieprzerwane doświadczenie w zakresie świadczenia pomocy prawnej dla przedsiębiorców
+            i Klientów indywidualnych.
+          </p>
+        </article>
+
+        <article class="person reveal">
+          <div class="person__avatar" aria-hidden="true">
+            <span>KK</span>
+          </div>
+          <h3 class="person__name">Krystian Klimas</h3>
+          <p class="person__role">Radca Prawny</p>
+          <p class="person__bio">
+            Kancelaria założona w <strong>2013 r.</strong> Ponad <strong>10-letnie</strong>
+            doświadczenie w obsłudze prawnej. Od 2013 r. ścisła współpraca obu Kancelarii
+            zapewnia kompleksową pomoc prawną.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CAREER ============ -->
+  <section id="career" class="section section--alt">
+    <div class="container grid-2 grid-2--reverse">
+      <div class="reveal">
+        <span class="eyebrow">Kariera</span>
+        <h2 class="section__title">Dołącz do naszego zespołu</h2>
+        <p>
+          Kancelaria Radcy Prawnego <strong>Norberta Klimas</strong> jest otwarta na
+          współpracę z nowymi osobami.
+        </p>
+        <p>
+          Znajomość języków obcych — <strong>niemieckiego</strong> lub <strong>angielskiego</strong>
+          — będzie dodatkowym, jednak niekoniecznym do zatrudnienia atutem.
+        </p>
+        <p>
+          <strong>Aplikantów radcowskich</strong> lub <strong>prawników</strong>
+          (absolwentów studiów prawniczych) zainteresowanych pracą w naszej kancelarii
+          zapraszamy do wysyłania CV wraz z listem motywacyjnym:
+        </p>
+        <ul class="check-list">
+          <li>pocztą elektroniczną na adres e-mail kancelarii,</li>
+          <li>tradycyjnie listem na adres: <em>Kancelaria Radcy Prawnego Norbert Klimas, ul. Kościuszki 13/8, 45-062 Opole.</em></li>
+        </ul>
+        <a href="#contact" class="btn btn--primary">Wyślij aplikację</a>
+      </div>
+
+      <div class="career__panel reveal">
+        <img src="images/career-signing.jpg" alt="Podpisanie dokumentu prawniczego w kancelarii" class="career__img" />
+        <div class="career__overlay">
+          <div class="career__values">
+            <div class="career__value">
+              <span class="career__value-num">01</span>
+              <h4>Praca przy realnych sprawach</h4>
+              <p>Od pierwszego dnia bierzesz udział w postępowaniach sądowych, opiniach i negocjacjach — nie odkurzasz akt.</p>
+            </div>
+            <div class="career__value">
+              <span class="career__value-num">02</span>
+              <h4>Mentoring radców z 30-letnim stażem</h4>
+              <p>Wiedza praktyczna przekazywana wprost, codzienne konsultacje, wspólne przygotowywanie pism procesowych.</p>
+            </div>
+            <div class="career__value">
+              <span class="career__value-num">03</span>
+              <h4>Wsparcie w aplikacji</h4>
+              <p>Aplikantom radcowskim zapewniamy elastyczne godziny w okresie zajęć i przygotowań do egzaminu.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section id="contact" class="section section--dark contact">
+    <div class="contact__bg" aria-hidden="true">
+      <img src="images/contact-building.jpg" alt="" />
+    </div>
+
+    <div class="container">
+      <div class="section__head section__head--light reveal">
+        <span class="eyebrow eyebrow--light">Kontakt</span>
+        <h2 class="section__title">Skontaktuj się z nami</h2>
+        <p class="section__lead">
+          Kancelaria Radców Prawnych <strong>Krystian Klimas, Norbert Klimas</strong> —
+          dwa biura w&nbsp;sercu Opolszczyzny. Wybierz dogodną dla siebie lokalizację
+          lub napisz do nas wiadomość.
+        </p>
+      </div>
+
+      <div class="contact__layout">
+
+        <!-- Lewa kolumna: dane biur -->
+        <div class="contact__offices">
+          <article class="office-card reveal" data-office="opole">
+            <header class="office-card__head">
+              <div class="office-card__pin" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                  <path d="M12 22s-7-7.58-7-12a7 7 0 1 1 14 0c0 4.42-7 12-7 12Z"/>
+                  <circle cx="12" cy="10" r="2.5"/>
+                </svg>
+              </div>
+              <div>
+                <span class="office-card__tag">Biuro główne</span>
+                <h3>Opole</h3>
+              </div>
+            </header>
+
+            <address>
+              ul. Kościuszki 13/8<br />
+              45-062 Opole
+            </address>
+
+            <ul class="office-card__list">
+              <li>
+                <span class="office-card__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M22 16.92V21a1 1 0 0 1-1.11 1A19.86 19.86 0 0 1 2 4.11 1 1 0 0 1 3 3h4.09a1 1 0 0 1 1 .75c.12.6.31 1.4.57 2.18a1 1 0 0 1-.23 1L7.21 8.29a16 16 0 0 0 8.5 8.5l1.36-1.22a1 1 0 0 1 1-.23c.78.26 1.58.45 2.18.57a1 1 0 0 1 .75 1Z"/></svg>
+                </span>
+                <div>
+                  <span class="office-card__label">Telefon</span>
+                  <a href="tel:+48774418484">(77) 441 84 84</a>
+                </div>
+              </li>
+              <li>
+                <span class="office-card__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 2h12v6H6zM6 14h12v8H6zM6 14V8h12v6"/><circle cx="9" cy="11" r=".7" fill="currentColor"/></svg>
+                </span>
+                <div>
+                  <span class="office-card__label">Fax</span>
+                  <span>(77) 445 89 84</span>
+                </div>
+              </li>
+              <li>
+                <span class="office-card__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+                </span>
+                <div>
+                  <span class="office-card__label">E-mail</span>
+                  <a href="mailto:kontakt@kancelariaklimas.pl">kontakt@kancelariaklimas.pl</a>
+                </div>
+              </li>
+              <li>
+                <span class="office-card__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+                </span>
+                <div>
+                  <span class="office-card__label">Godziny otwarcia</span>
+                  <span>pn.–pt. <strong>8:00 – 16:00</strong></span>
+                </div>
+              </li>
+            </ul>
+
+            <div class="office-card__map">
+              <iframe
+                title="Mapa biura Opole, ul. Kościuszki 13/8"
+                src="https://www.google.com/maps?q=ul.+Ko%C5%9Bciuszki+13%2F8,+45-062+Opole&z=16&output=embed"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                allowfullscreen></iframe>
+              <a class="office-card__map-link" target="_blank" rel="noopener"
+                 href="https://www.google.com/maps/search/?api=1&query=Ko%C5%9Bciuszki+13%2F8+45-062+Opole"
+                 aria-label="Otwórz w Google Maps">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="office-card reveal" data-office="ozimek">
+            <header class="office-card__head">
+              <div class="office-card__pin" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                  <path d="M12 22s-7-7.58-7-12a7 7 0 1 1 14 0c0 4.42-7 12-7 12Z"/>
+                  <circle cx="12" cy="10" r="2.5"/>
+                </svg>
+              </div>
+              <div>
+                <span class="office-card__tag">Filia</span>
+                <h3>Ozimek</h3>
+              </div>
+            </header>
+
+            <address>
+              ul. Częstochowska 4<br />
+              46-040 Ozimek
+            </address>
+
+            <ul class="office-card__list">
+              <li>
+                <span class="office-card__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M22 16.92V21a1 1 0 0 1-1.11 1A19.86 19.86 0 0 1 2 4.11 1 1 0 0 1 3 3h4.09a1 1 0 0 1 1 .75c.12.6.31 1.4.57 2.18a1 1 0 0 1-.23 1L7.21 8.29a16 16 0 0 0 8.5 8.5l1.36-1.22a1 1 0 0 1 1-.23c.78.26 1.58.45 2.18.57a1 1 0 0 1 .75 1Z"/></svg>
+                </span>
+                <div>
+                  <span class="office-card__label">Telefon</span>
+                  <a href="tel:+48774026380">(77) 402 63 80</a>
+                </div>
+              </li>
+              <li>
+                <span class="office-card__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 2h12v6H6zM6 14h12v8H6zM6 14V8h12v6"/><circle cx="9" cy="11" r=".7" fill="currentColor"/></svg>
+                </span>
+                <div>
+                  <span class="office-card__label">Fax</span>
+                  <span>(77) 402 63 81</span>
+                </div>
+              </li>
+              <li>
+                <span class="office-card__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+                </span>
+                <div>
+                  <span class="office-card__label">E-mail</span>
+                  <a href="mailto:kontakt@kancelariaklimas.pl">kontakt@kancelariaklimas.pl</a>
+                </div>
+              </li>
+              <li>
+                <span class="office-card__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+                </span>
+                <div>
+                  <span class="office-card__label">Godziny otwarcia</span>
+                  <span>pn.–pt. <strong>8:00 – 16:00</strong></span>
+                </div>
+              </li>
+            </ul>
+
+            <div class="office-card__map">
+              <iframe
+                title="Mapa biura Ozimek, ul. Częstochowska 4"
+                src="https://www.google.com/maps?q=ul.+Cz%C4%99stochowska+4,+46-040+Ozimek&z=16&output=embed"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                allowfullscreen></iframe>
+              <a class="office-card__map-link" target="_blank" rel="noopener"
+                 href="https://www.google.com/maps/search/?api=1&query=Cz%C4%99stochowska+4+46-040+Ozimek"
+                 aria-label="Otwórz w Google Maps">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </article>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ RODO ============ -->
+  <section id="rodo" class="section">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="eyebrow">RODO</span>
+        <h2 class="section__title">Klauzule informacyjne</h2>
+        <p class="section__lead">
+          Dokumenty dotyczące przetwarzania danych osobowych w naszych Kancelariach.
+        </p>
+      </div>
+
+      <div class="rodo__grid">
+        <div class="rodo-card reveal">
+          <h3>Kancelaria Radcy Prawnego Krystian Klimas</h3>
+          <ul class="doc-list">
+            <li>
+              <a href="http://kancelariaklimas.pl/files/Klauzula_informacyjna_dot_%20przetwarzania_danych_osobowych_w_Kancelarii_Radcy_Prawnego_Krystiana_Klimas.pdf" target="_blank" rel="noopener">
+                <span class="doc-list__icon" aria-hidden="true">PDF</span>
+                <span>Klauzula informacyjna dot. przetwarzania danych osobowych</span>
+              </a>
+            </li>
+            <li>
+              <a href="http://kancelariaklimas.pl/files/Klauzula_informacyjna_dla_pracownikow_i_kandydatow_dot._przetwarzania_danych_osobowych_w_Kancelarii_Radcy_Prawnego_Krystiana_Klimas.pdf" target="_blank" rel="noopener">
+                <span class="doc-list__icon" aria-hidden="true">PDF</span>
+                <span>Klauzula informacyjna dla pracowników i kandydatów</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="rodo-card reveal">
+          <h3>Kancelaria Radcy Prawnego Norbert Klimas</h3>
+          <ul class="doc-list">
+            <li>
+              <a href="http://kancelariaklimas.pl/files/Klauzula_informacyjna_dot_%20przetwarzania_danych_osobowych_w_Kancelarii_Radcy_Prawnego_Norberta_Klimas.pdf" target="_blank" rel="noopener">
+                <span class="doc-list__icon" aria-hidden="true">PDF</span>
+                <span>Klauzula informacyjna dot. przetwarzania danych osobowych</span>
+              </a>
+            </li>
+            <li>
+              <a href="http://kancelariaklimas.pl/files/Klauzula_informacyjna_dla_pracownikow_i_kandydatow_dot._przetwarzania_danych_osobowych_w_Kancelarii_Radcy_Prawnego_Norberta_Klimas.pdf" target="_blank" rel="noopener">
+                <span class="doc-list__icon" aria-hidden="true">PDF</span>
+                <span>Klauzula informacyjna dla pracowników i kandydatów</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <img src="logo_klimas.png" alt="Kancelaria Klimas" class="footer__logo footer__logo--white" />
+      </div>
+
+      <nav class="footer__nav" aria-label="stopka">
+        <a href="#about">O firmie</a>
+        <a href="#offer">Oferta</a>
+        <a href="#team">Zespół</a>
+        <a href="#career">Kariera</a>
+        <a href="#contact">Kontakt</a>
+        <a href="#rodo">RODO</a>
+      </nav>
+
+      <div class="footer__legal">
+        <p>© <span id="year">2026</span> Kancelaria Klimas. Wszelkie prawa zastrzeżone.</p>
+        <p><a href="http://kancelariaklimas.pl/?polityka-plikow-cookies" target="_blank" rel="noopener">Polityka plików cookies</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#home" class="to-top" id="toTop" aria-label="Wróć na górę">↑</a>
+
+  <!-- ============ COOKIE BANNER ============ -->
+  <div class="cookie" id="cookieBanner" role="dialog" aria-labelledby="cookieTitle" aria-describedby="cookieDesc" hidden>
+    <div class="cookie__inner">
+      <div class="cookie__icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M12 2a10 10 0 1 0 10 10 4 4 0 0 1-5-5 4 4 0 0 1-5-5Z"/>
+          <circle cx="9" cy="11" r="1" fill="currentColor"/>
+          <circle cx="14" cy="15" r="1" fill="currentColor"/>
+          <circle cx="9" cy="16" r=".7" fill="currentColor"/>
+          <circle cx="15" cy="9" r=".7" fill="currentColor"/>
+        </svg>
+      </div>
+      <div class="cookie__text">
+        <h3 id="cookieTitle">Pliki cookies</h3>
+        <p id="cookieDesc">
+          W celu zapewnienia najwyższej jakości usług wykorzystujemy informacje przechowywane
+          w plikach cookies. Korzystając ze strony wyrażasz zgodę na ich użycie.
+          <a href="http://kancelariaklimas.pl/?polityka-plikow-cookies" target="_blank" rel="noopener">
+            Polityka plików cookies
+          </a>
+        </p>
+      </div>
+      <div class="cookie__actions">
+        <button type="button" class="btn btn--ghost btn--sm" id="cookieReject">Tylko niezbędne</button>
+        <button type="button" class="btn btn--primary btn--sm" id="cookieAccept">Akceptuję</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
