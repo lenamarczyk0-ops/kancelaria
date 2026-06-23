@@ -123,6 +123,24 @@
     document.getElementById('cookieReject')?.addEventListener('click', () => dismiss('essential'));
   }
 
+  /* ---- Anti-spam: assemble e-mails & phone numbers at runtime ---- */
+  document.querySelectorAll('.protect-mail').forEach(el => {
+    const user = el.getAttribute('data-user');
+    const domain = el.getAttribute('data-domain');
+    if (!user || !domain) return;
+    const addr = user + '@' + domain;
+    el.setAttribute('href', 'mailto:' + addr);
+    el.setAttribute('rel', 'nofollow');
+    el.textContent = addr;
+  });
+
+  document.querySelectorAll('.protect-tel').forEach(el => {
+    const tel = el.getAttribute('data-tel');
+    if (!tel) return;
+    el.setAttribute('href', 'tel:+' + tel);
+    el.setAttribute('rel', 'nofollow');
+  });
+
   /* ---- Close mobile nav on Escape ---- */
   document.addEventListener('keydown', e => {
     if (e.key === 'Escape' && nav.classList.contains('is-open')) {

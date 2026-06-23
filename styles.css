@@ -162,10 +162,10 @@ p { margin: 0 0 1em; color: var(--ink-soft); }
   align-items: center;
   justify-content: space-between;
   gap: 24px;
-  height: 96px;
+  height: 112px;
   transition: height .25s var(--t);
 }
-.nav.is-scrolled .nav__inner { height: 80px; }
+.nav.is-scrolled .nav__inner { height: 90px; }
 .nav__brand {
   display: flex;
   align-items: center;
@@ -174,13 +174,13 @@ p { margin: 0 0 1em; color: var(--ink-soft); }
 }
 .nav__logo {
   width: auto;
-  height: 60px;
-  max-height: 60px;
+  height: 80px;
+  max-height: 80px;
   object-fit: contain;
   display: block;
   transition: height .25s var(--t);
 }
-.nav.is-scrolled .nav__logo { height: 48px; }
+.nav.is-scrolled .nav__logo { height: 64px; }
 .nav__links {
   display: flex;
   align-items: center;
@@ -436,11 +436,11 @@ p { margin: 0 0 1em; color: var(--ink-soft); }
 .section {
   padding: clamp(80px, 10vw, 130px) 0;
   position: relative;
-  scroll-margin-top: 96px;
+  scroll-margin-top: 112px;
 }
-section[id] { scroll-margin-top: 96px; }
+section[id] { scroll-margin-top: 112px; }
 @media (max-width: 820px) {
-  .section, section[id] { scroll-margin-top: 76px; }
+  .section, section[id] { scroll-margin-top: 84px; }
 }
 .section--alt { background: var(--white); }
 .section--dark {
@@ -1065,9 +1065,47 @@ section[id] { scroll-margin-top: 96px; }
   color: var(--white);
   font-size: 15.5px;
   font-weight: 500;
+  word-break: break-word;
 }
 .office-card__list a:hover { color: var(--gold-500); }
 .office-card__list strong { color: var(--white); font-weight: 600; }
+
+/* Contact note — additional questions */
+.contact__note {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 28px;
+  padding: 20px 26px;
+  background: rgba(201, 169, 106, .1);
+  border: 1px solid rgba(201, 169, 106, .35);
+  border-radius: var(--radius);
+  color: rgba(255, 255, 255, .9);
+}
+.contact__note-icon {
+  flex: 0 0 auto;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--gold-500), var(--gold-600));
+  color: var(--navy-900);
+  display: grid;
+  place-items: center;
+}
+.contact__note-icon svg { width: 22px; height: 22px; stroke-linecap: round; stroke-linejoin: round; }
+.contact__note p {
+  margin: 0;
+  font-size: 15.5px;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, .85);
+}
+.contact__note strong { color: var(--white); font-weight: 600; }
+.contact__note a {
+  color: var(--gold-500);
+  font-weight: 600;
+  white-space: nowrap;
+}
+.contact__note a:hover { color: var(--white); }
 
 /* Embedded map inside office card */
 .office-card__map {
@@ -1341,14 +1379,14 @@ section[id] { scroll-margin-top: 96px; }
 }
 
 @media (max-width: 820px) {
-  .nav__inner { height: 76px; }
-  .nav.is-scrolled .nav__inner { height: 68px; }
-  .nav__logo { height: 48px; }
-  .nav.is-scrolled .nav__logo { height: 40px; }
+  .nav__inner { height: 84px; }
+  .nav.is-scrolled .nav__inner { height: 74px; }
+  .nav__logo { height: 58px; }
+  .nav.is-scrolled .nav__logo { height: 50px; }
   .nav__burger { display: flex; }
   .nav__links {
     position: fixed;
-    inset: 76px 0 auto 0;
+    inset: 84px 0 auto 0;
     flex-direction: column;
     align-items: stretch;
     gap: 0;
